@@ -1,0 +1,21 @@
+# 本地工具配置，不属于库的一部分
+.qoder/
+
+# 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go 工作区文件
+go.work
+go.work.sum
+
+# 集成测试可能留下的镜像
+*.qcow2
+*.img
+*.raw
+*.vmdk
